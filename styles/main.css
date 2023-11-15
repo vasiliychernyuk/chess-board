@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/inter/Inter-500.woff2");
+}
+
+@import url("./reset.css");
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(70deg, #2D83EC, #1AC9FF);
+
+    font-family: "Inter";
+}
+
+.main-screen {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-board {
+    width: 50vw;
+    height: 50vw;
+    box-shadow: .2em .2em 1em #458CFE;
+}
+
