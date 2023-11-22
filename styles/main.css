@@ -13,18 +13,3 @@ body {
     font-family: "Inter";
 }
 
-.main-screen {
-    width: 100vw;
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.chess-board {
-    width: 50vw;
-    height: 50vw;
-    box-shadow: .2em .2em 1em #458CFE;
-}
-
